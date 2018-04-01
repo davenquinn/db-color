@@ -7,5 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daven Quinn",
-  "license": "ISC"
+  "bin": {
+    "db-color": "bin/db-color"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.2.4"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^2.0.1",
+    "@blueprintjs/table": "^2.0.0",
+    "pg-promise": "^8.2.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-hyperscript": "^3.2.0",
+    "react-transition-group": "^2.3.0",
+    "yargs": "^11.0.0"
+  }
 }
